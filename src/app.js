@@ -17,3 +17,7 @@ app.get ('/products', async (req, res) => {
         res.status (500).send ({err});
     }
 })
+
+app.listen (8080, () => {
+    console.log('escuchando 8080')
+})
